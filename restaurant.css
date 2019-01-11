@@ -1,0 +1,75 @@
+/*common nav styles
+*/
+body{
+  margin: 0px;
+color:#049751;
+}
+.navigation-wrapper{
+  background-color:orange;
+height:190px;
+  /*flexbox container*/
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:60px;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+.left-column >.contact-hours-wrapper{
+  
+  color:#049751;
+  display: grid;
+  grid-template-columns: 1fr;
+grid-gap:10px;
+}
+
+.address-wrapper{
+  color:#049751;
+}
+
+.nav-link{
+  
+  color:#049751;
+  font-size: 1.3rem;
+  text-decoration:none;
+
+}
+
+.left-column{
+  display:flex;
+  align-items:center;
+}
+
+
+.left-column >.icon{
+  margin-right: 15px;
+}
+.left-column >.icon i{
+  font-size: 2em;
+}
+/* right column styles*/
+.right-column{
+  display:flex;
+}
+
+
+.location-icon{
+  font-size:2em;
+  margin-left:15px;
+}
+
+.hero-section{
+  
+  background-image: url("shack.jpg");
+   padding: 100px;
+  height:300px;
+  margin:0px;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+  
+}
