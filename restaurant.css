@@ -102,6 +102,20 @@ grid-gap:10px;
   background-color:#8E401E;
     display:flex;
     justify-content:center;
+    align-items: center;
     
 }
+
+.features-section > .columns-wrapper{
+  width:1000px;
+  display:flex;
+  justify-content:center;
+    
+}
+
+.column{
+  text-align:center;
+    
+}
+
 
