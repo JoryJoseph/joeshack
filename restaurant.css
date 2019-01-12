@@ -3,10 +3,12 @@
 body{
   margin: 0px;
 color:#049751;
+    font-family: 'Indie Flower', cursive;
+   
 }
 .navigation-wrapper{
   background-color:orange;
-height:190px;
+height:30px;
   /*flexbox container*/
   display:flex;
   justify-content:space-around;
@@ -34,8 +36,10 @@ grid-gap:10px;
   color:#049751;
   font-size: 1.3rem;
   text-decoration:none;
+ 
 
 }
+
 
 .left-column{
   display:flex;
@@ -73,3 +77,31 @@ grid-gap:10px;
   
   
 }
+
+
+.hero-section h1, h3 {
+    
+    background-color:black;
+    width:120px;
+    border-radius:10px;
+    padding:12px;
+}
+
+.icon, .location-icon{
+    transition: transform .4s;
+}
+
+.icon:hover,.location-icon:hover{
+    transform: scale(1.4);
+}
+
+
+.features-section{
+  
+  height:220px;
+  background-color:#8E401E;
+    display:flex;
+    justify-content:center;
+    
+}
+
